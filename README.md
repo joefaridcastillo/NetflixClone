@@ -1,4 +1,4 @@
-<img src="img/logo.png" widht=300/>
+<img src="img/logo.png" width="300"/>
 Netflix Main Website Page
 
 ---
