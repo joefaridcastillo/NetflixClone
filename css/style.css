@@ -55,7 +55,7 @@ img {
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+  box-shadow: inset 10px 40px 120px #000000, inset -10px -40px 250px #000000;
 }
 
 .showcase-top {
@@ -68,7 +68,7 @@ img {
   width: 170px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 10%;
   transform: translate(-50%, -50%);
 }
 
@@ -102,7 +102,7 @@ img {
   text-transform: uppercase;
   color: #fff;
   font-weight: 400;
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   line-height: 1.25;
   margin: 0 0 2rem;
 }
@@ -137,4 +137,13 @@ img {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+}
+.email-box {
+  width: 500px;
+  padding-left: 10px;
+  font-size: 20px;
 }
