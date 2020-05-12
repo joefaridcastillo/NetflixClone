@@ -40,9 +40,10 @@ img {
 
 .showcase {
   width: 100%;
-  height: 93vh;
+  height: 110vh;
   position: relative;
   background: url('../img/background.jpg') no-repeat center center/cover;
+  border-bottom: 10px solid #303030;
 }
 
 /* Making the showcase transparent */
@@ -146,4 +147,133 @@ img {
   width: 500px;
   padding-left: 10px;
   font-size: 20px;
+}
+
+.ready p {
+  font-size: 13px;
+  padding-top: 40px;
+}
+/* second section */
+
+.second-section {
+  background-color: #000000;
+  border-bottom: 10px solid #303030;
+}
+
+.first {
+  display: flex;
+}
+
+.netflix-1 {
+  flex: 1;
+}
+.enjoy {
+  flex: 1;
+}
+.enjoy h1 {
+  padding-top: 140px;
+  padding-left: 90px;
+  font-size: 50px;
+}
+
+.enjoy p {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 90px;
+  line-height: 30px;
+}
+.netflix-1 img {
+  height: 500px;
+  width: 500px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+/* Third section */
+.third-section {
+  background-color: #000000;
+  padding-top: 1.5rem;
+  border-bottom: 10px solid #303030;
+}
+
+.second {
+  display: flex;
+}
+
+.netflix-2 {
+  flex: 1;
+}
+.download {
+  flex: 1;
+  order: 2;
+}
+
+.netflix-2 img {
+  height: 500px;
+  width: 600px;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+.download h1 {
+  padding-top: 140px;
+  padding-right: 90px;
+  font-size: 50px;
+}
+
+.download p {
+  font-size: 20px;
+  color: #fff;
+  padding-right: 90px;
+  line-height: 30px;
+}
+
+/* Fourth section */
+.fourth-section {
+  background-color: #000000;
+  padding-top: 1.5rem;
+  border-bottom: 10px solid #303030;
+}
+
+.third {
+  display: flex;
+}
+.netflix-3 {
+  flex: 1;
+}
+.watch {
+  flex: 1;
+}
+.netflix-3 img {
+  height: 500px;
+  width: 600px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.watch h1 {
+  padding-top: 140px;
+  padding-left: 90px;
+  font-size: 50px;
+}
+
+.watch p {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 90px;
+  line-height: 30px;
+}
+
+/* Frequently asked questions part */
+
+.questions {
+  background-color: #000000;
+  padding-top: 4.5rem;
+  border-bottom: 10px solid #303030;
+  height: 400px;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-size: 30px;
 }
